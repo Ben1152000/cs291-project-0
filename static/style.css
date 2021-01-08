@@ -73,3 +73,7 @@ div.link-box {
     border: 3px dotted dodgerblue;
     padding: 30px;
 }
+
+img {
+    max-width: 100%
+}
