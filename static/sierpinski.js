@@ -1,5 +1,6 @@
 
 tableBody = document.getElementById('table');
+tableBody.innerHTML = ''; // remove placeholder rows/cols
 
 let values = [];
 const SIZE = 16;
@@ -25,5 +26,4 @@ for (i = 0; i < SIZE; i++) {
         }
         tr.appendChild(td);
     }
-    console.log(values);
 }
